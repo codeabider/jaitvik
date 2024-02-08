@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ideas</title>
+    <style>
+      body {
+        font-size: 16px;
+        font-family: monospace;
+        padding: 0;
+        margin: 0;
+        background: linear-gradient(45deg, #a1e5f7, #ffe600);
+      }
+      .red {
+        color: red;
+      }
+      .green {
+        color: green;
+      }
+      .with-border,
+      .col {
+        border: 1px solid black;
+      }
+      .main-container {
+        padding: 10px;
+        margin: 0 auto;
+        max-width: 500px;
+      }
+      .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 97vh;
+      }
+      .image {
+        height: 300px;
+        border: 20px solid white;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="box">
+        <h1 class="">My information</h1>
+        <img class="image" src="assets/desert-safari.jpg" alt="" />
+        <table class="with-border">
+          <thead>
+            <th class="col">First Name</th>
+            <th class="col">Last Name</th>
+            <th class="col">Age</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col">Jaitvik</td>
+              <td class="col">Verma</td>
+              <td class="col">10</td>
+            </tr>
+          </tbody>
+        </table>
+        <article>
+          <address>Minnesota, USA</address>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>
