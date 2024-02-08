@@ -25,7 +25,7 @@
       .main-container {
         padding: 10px;
         margin: 0 auto;
-        max-width: 500px;
+        max-width: 1000px;
       }
       .box {
         display: flex;
@@ -37,6 +37,20 @@
         height: 300px;
         border: 10px solid white;
         border-radius: 10px;
+        margin: 10px;
+      }
+      .album {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      figure {
+        margin: 0;
+      }
+      figcaption {
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
       }
     </style>
   </head>
@@ -63,10 +77,22 @@
         </article>
         <h2>UAE trip</h2>
         <div class="album">
-          <img class="image" src="assets/desert-safari.jpg" alt="" />
-          <img class="image" src="assets/jaitvik.jpg" alt="" />
-          <img class="image" src="assets/jaitvik-2.jpg" alt="" />
-          <img class="image" src="assets/jaitvik-3.jpg" alt="" />
+          <figure>
+            <img class="image" src="assets/desert-safari.jpg" alt="" />
+            <figcaption>Fun ATV ride in the desert</figcaption>
+          </figure>
+          <figure>
+            <img class="image" src="assets/jaitvik.jpg" alt="" />
+            <figcaption>I'm the smart guy</figcaption>
+          </figure>
+          <figure>
+            <img class="image" src="assets/jaitvik-2.jpg" alt="" />
+            <figcaption>In the future</figcaption>
+          </figure>
+          <figure>
+            <img class="image" src="assets/jaitvik-3.jpg" alt="" />
+            <figcaption>Fun at the beach</figcaption>
+          </figure>
         </div>
       </div>
     </div>
