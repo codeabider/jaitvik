@@ -3,14 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ideas</title>
+    <title>Jaitvik</title>
     <style>
       body {
         font-size: 16px;
         font-family: monospace;
         padding: 0;
         margin: 0;
-        background: linear-gradient(45deg, #a1e5f7, #ffe600);
+        /* background: linear-gradient(45deg, #a1e5f7, #ffe600); */
+        background-color: #000;
+        color: #fff;
       }
       .red {
         color: red;
@@ -20,7 +22,7 @@
       }
       .with-border,
       .col {
-        border: 1px solid black;
+        border: 1px solid #fff;
       }
       .main-container {
         padding: 10px;
@@ -33,7 +35,8 @@
         align-items: center;
         min-height: 97vh;
       }
-      .image {
+      .image,
+      .jumpy-text {
         height: 300px;
         border: 10px solid white;
         border-radius: 10px;
@@ -53,6 +56,8 @@
         margin: 0 auto;
       }
     </style>
+    <link rel="stylesheet" href="./letters.css" />
+    <script src="./confetti.js"></script>
   </head>
   <body>
     <div class="main-container">
@@ -75,7 +80,6 @@
         <article>
           <address>Minnesota, USA</address>
         </article>
-        <h2>UAE trip</h2>
         <div class="album">
           <figure>
             <img class="image" src="assets/desert-safari.jpg" alt="" />
@@ -85,6 +89,41 @@
             <img class="image" src="assets/jaitvik.jpg" alt="" />
             <figcaption>I'm the smart guy</figcaption>
           </figure>
+          <figure>
+            <img
+              class="image"
+              src="assets/happy-birthday-birthday-cake.gif"
+              alt=""
+            />
+            <figcaption>It's my Birthday!</figcaption>
+          </figure>
+          <div class="jumpy-text">
+            <h3 class="fixed">Click the letters!</h3>
+            <div class="word">
+              <span>H</span>
+              <span>a</span>
+              <span>p</span>
+              <span>p</span>
+              <span>y</span>
+              <hr />
+              <span>B</span>
+              <span>i</span>
+              <span>r</span>
+              <span>t</span>
+              <span>h</span>
+              <span>d</span>
+              <span>a</span>
+              <span>y</span>
+              <hr />
+              <span>J</span>
+              <span>A</span>
+              <span>I</span>
+              <span>T</span>
+              <span>V</span>
+              <span>I</span>
+              <span>K</span>
+            </div>
+          </div>
           <figure>
             <img class="image" src="assets/jaitvik-2.jpg" alt="" />
             <figcaption>In the future</figcaption>
